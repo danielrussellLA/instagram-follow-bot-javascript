@@ -6,7 +6,6 @@
             return;
         }
         const buttons = document.querySelectorAll('button');
-        // window.scroll(0, 1000)
         const nextButton = buttons[i];
         nextButton.click();
         i += 1;
