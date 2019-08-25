@@ -1,5 +1,5 @@
 # Instructions
-- navigate to https://www.instagram.com/explore/people/suggested/ in your browser on your computer
+- navigate to https://www.instagram.com/explore/people/suggested/ in your browser on your computer. This goes without saying, but you'll need to be signed into your Intagram account
 - copy the javascript code in followBot.js and paste it into the javascript console (you can open this in google chrome with cmd + options + j 
 - click enter
 - watch the bot click the follow button for you. it will only follow up to 30 people at a time so your account doesn't get flagged
