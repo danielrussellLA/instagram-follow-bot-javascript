@@ -10,5 +10,5 @@
         const nextButton = buttons[i];
         nextButton.click();
         i += 1;
-    }, 3000)
+    }, 500)
 })()
