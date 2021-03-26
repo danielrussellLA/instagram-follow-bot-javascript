@@ -9,6 +9,6 @@
         if (nextButton.textContent.toLowerCase() === 'follow') { // write in your language
             nextButton.click();
         }
-        i ++;
+        i++;
     }, 500)
 })()
