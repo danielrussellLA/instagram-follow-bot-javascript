@@ -3,13 +3,12 @@
     const followInterval = setInterval(() => {
         if (i >= 30) {
             clearInterval(followInterval);
-            return;
         }
         const buttons = document.querySelectorAll('button');
         const nextButton = buttons[i];
-        if (nextButton.textContent.toLowerCase() === "follow") { // write in your language
+        if (nextButton.textContent.toLowerCase() === 'follow') { // write in your language
             nextButton.click();
         }
-        i += 1;
+        i ++;
     }, 500)
 })()
