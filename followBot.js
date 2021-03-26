@@ -7,8 +7,9 @@
         }
         const buttons = document.querySelectorAll('button');
         const nextButton = buttons[i];
-        if (nextButton.textContent == "Follow"){ //write in your language
-        nextButton.click();}
+        if (nextButton.textContent == "Follow") { //write in your language
+            nextButton.click();
+        }
         i += 1;
     }, 500)
 })()
