@@ -7,7 +7,9 @@
         }
         const buttons = document.querySelectorAll('button');
         const nextButton = buttons[i];
-        nextButton.click();
+        if (nextButton.textContent.toLowerCase() === "follow") { // write in your language
+            nextButton.click();
+        }
         i += 1;
     }, 500)
 })()
