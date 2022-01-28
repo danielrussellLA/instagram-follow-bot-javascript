@@ -8,9 +8,9 @@
             if (nxt_btn.textContent.toLowerCase() === 'follow') {
                 nxt_btn.click();
                 console.log("Followed : " + (i+1) + ". " + nxt_btn.parentElement.parentElement.childNodes[1].firstElementChild.firstElementChild.firstElementChild.firstElementChild.text);
+                count++;
             }
             i++;
-            count++;
             if(count >= 30){
                 console.log("sleep for 1 hrs ");
                 count = 0;
