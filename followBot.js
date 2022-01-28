@@ -14,6 +14,7 @@
             if(count >= 30){
                 console.log("sleep for 1 hrs ");
                 count = 0;
+                i=0;
                 clearInterval(newInterval);
             }
         }, 1000)
