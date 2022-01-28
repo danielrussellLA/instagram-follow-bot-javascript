@@ -7,7 +7,7 @@
             const nxt_btn = btn[i];
             if (nxt_btn.textContent.toLowerCase() === 'follow') {
                 nxt_btn.click();
-                console.log("Followed : " + i+1 + ". " + nxt_btn.parentElement.parentElement.childNodes[1].firstElementChild.firstElementChild.firstElementChild.firstElementChild.text);
+                console.log("Followed : " + (i+1) + ". " + nxt_btn.parentElement.parentElement.childNodes[1].firstElementChild.firstElementChild.firstElementChild.firstElementChild.text);
             }
             i++;
             count++;
